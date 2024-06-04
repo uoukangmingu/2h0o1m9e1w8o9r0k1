@@ -1,0 +1,322 @@
+﻿body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url('drama.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.first-button {
+    display: block;
+    position: absolute;
+    top: 9.6%;
+    left: 10.45%;
+    transform: translate(-50%, -50%);
+    width: 9.5%;
+    height: 9.5%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.second-button {
+    display: block;
+    position: absolute;
+    top: 20.4%;
+    left: 10.45%;
+    transform: translate(-50%, -50%);
+    width: 9.5%;
+    height: 9.5%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.third-button {
+    display: block;
+    position: absolute;
+    top: 31.2%;
+    left: 10.45%;
+    transform: translate(-50%, -50%);
+    width: 9.5%;
+    height: 9.5%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.fourth-button {
+    display: block;
+    position: absolute;
+    top: 9.6%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+    width: 9.5%;
+    height: 9.5%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.fifth-button {
+    display: block;
+    position: absolute;
+    top: 20.4%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+    width: 9.5%;
+    height: 9.5%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.sixth-button {
+    display: block;
+    position: absolute;
+    top: 31.2%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+    width: 9.5%;
+    height: 9.5%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button1 {
+    display: block;
+    position: absolute;
+    top: 61.27%;
+    left: 84.4%;
+    transform: translate(-50%, -50%);
+    width: 30.8%;
+    height: 6%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button2 {
+    display: block;
+    position: absolute;
+    top: 67.74%;
+    left: 84.4%;
+    transform: translate(-50%, -50%);
+    width: 30.8%;
+    height: 6%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button3 {
+    display: block;
+    position: absolute;
+    top: 74.29%;
+    left: 84.4%;
+    transform: translate(-50%, -50%);
+    width: 30.8%;
+    height: 6%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button4 {
+    display: block;
+    position: absolute;
+    top: 80.78%;
+    left: 84.4%;
+    transform: translate(-50%, -50%);
+    width: 30.8%;
+    height: 6%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button5 {
+    display: block;
+    position: absolute;
+    top: 87.2%;
+    left: 84.4%;
+    transform: translate(-50%, -50%);
+    width: 30.8%;
+    height: 6%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button6 {
+    display: block;
+    position: absolute;
+    top: 94%;
+    left: 84.4%;
+    transform: translate(-50%, -50%);
+    width: 30.8%;
+    height: 7%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button-left {
+    display: block;
+    position: absolute;
+    top: 71.6%;
+    left: 26.3%;
+    transform: translate(-50%, -50%);
+    width: 41.5%;
+    height: 27.4%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.button-right {
+    display: block;
+    position: absolute;
+    top: 78.7%;
+    left: 57.95%;
+    transform: translate(-50%, -50%);
+    width: 10.7%;
+    height: 37.7%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.left {
+    display: block;
+    position: absolute;
+    top: 54%;
+    left: 17.45%;
+    transform: translate(-50%, -50%);
+    width: 14.6%;
+    height: 3.7%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.mid {
+    display: block;
+    position: absolute;
+    top: 54%;
+    left: 49.95%;
+    transform: translate(-50%, -50%);
+    width: 14.6%;
+    height: 3.7%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.right {
+    display: block;
+    position: absolute;
+    top: 54%;
+    left: 82.6%;
+    transform: translate(-50%, -50%);
+    width: 14.6%;
+    height: 3.7%;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border: 5px solid gray;
+}
+
+.first-button:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.second-button:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.third-button:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.fourth-button:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.fifth-button:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.sixth-button:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button1:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button2:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button3:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button4:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button5:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button6:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button-left:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.button-right:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.left:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.mid:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+.right:hover {
+background: rgba(255, 0, 0, 0.3);
+}
+
+
+body {
+background-color: #000;
+overflow-y: auto;
+}
+
+@keyframes scanlines {
+0% {
+background-position: 0 0;
+}
+100% {
+background-position: 0 -100vh;
+}
+}
