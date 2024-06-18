@@ -7,3 +7,13 @@ function adjustContainerHeight() {
 
 window.addEventListener('load', adjustContainerHeight);
 window.addEventListener('resize', adjustContainerHeight);
+
+const buttonClickSound = new Audio('물방울 소리.mp3');
+
+const buttons = document.querySelectorAll('.first-button, .second-button');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    buttonClickSound.play();
+  });
+});
